@@ -10,6 +10,8 @@ It requires Reachability `pod 'Reachability', '~> 3.2'`
 
 How to use it ? Well, I guess the sample projects describes it well, but here is a piece of code to understand how it works :
 
+(Remember to run `pod install` to resolve dependencies before running example)
+
     /*
      This example uses an UIImage, but this works with any file writable as NSData
      We begin by writing this image in our tmp directory with an uuid as name.
